@@ -7,4 +7,4 @@ First, we input the image, and run the program, the program will output the name
 - Python 3
 - Google Tesseract OCR
 - Pillow (or PIL equivalent)
-- pytessereact
+- pytesseract
