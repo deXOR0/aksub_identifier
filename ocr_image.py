@@ -16,7 +16,7 @@ def process(names):
     for ind in aktivis:
         print(ind + " - " + str(aktivis[ind]))
 
-pt.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pt.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe" #change this to Tesseract-OCR Path on your machine
 
 img = Image.open('435182.jpg')
 text = pt.image_to_string(img)
